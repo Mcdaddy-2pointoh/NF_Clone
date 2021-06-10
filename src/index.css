@@ -61,6 +61,11 @@ body {
   bottom: 0%;
 }
 
+.Card:hover {
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
 .Card {
   min-width: 2in;
   min-height: 15em;
@@ -132,6 +137,13 @@ body {
   border-color: red;
   border-width: 1px;
   cursor: pointer;
+}
+
+.Card button:hover {
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 ::-webkit-scrollbar {
